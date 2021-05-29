@@ -1,0 +1,21 @@
+~ vs laravel
+manage.py = artisan
+confusing
+    multiple packages e.g. mysite and polls (an app) that need to work with each other
+stupid
+    stick to industry naming e.g. routes, not urls
+    multiple urls.py per package
+    env not standard
+        https://djangostars.com/blog/configuring-django-settings-best-practices/
+    no urls.py generated for polls app (python manage.py startapp polls)
+    naming conventions to determine parent child
+        Laravel has many etc. is much better
+    table names not plural
+    laravel scopes are better than django filters
+
+great
+    groups and permissions are standard
+    models need to be verbose
+        alterations are automatically generated
+    package prefix on tables
+    model to string based on a specific field is neat
