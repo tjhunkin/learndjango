@@ -1,0 +1,9 @@
+~ install django
+python -m pip install Django
+
+~ django version
+python -m django --version
+
+~ dev server
+python manage.py runserver
+python manage.py runserver 8080
