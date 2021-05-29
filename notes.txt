@@ -11,6 +11,9 @@ python manage.py runserver 8080
 ~ create an app
 python manage.py startapp polls
 
+~ install extras
+pip install pymysql
+
 ~ vs laravel
 manage.py = artisan
 confusing
@@ -18,4 +21,5 @@ confusing
 stupid
     stick to industry naming e.g. routes, not urls
     multiple urls.py per package
+    env not standard
 no urls.py generated for polls app (python manage.py startapp polls)
