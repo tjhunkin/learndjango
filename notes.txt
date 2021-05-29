@@ -7,3 +7,15 @@ python -m django --version
 ~ dev server
 python manage.py runserver
 python manage.py runserver 8080
+
+~ create an app
+python manage.py startapp polls
+
+~ vs laravel
+manage.py = artisan
+confusing
+    multiple packages e.g. mysite and polls (an app)
+stupid
+    stick to industry naming e.g. routes, not urls
+    multiple urls.py per package
+no urls.py generated for polls app (python manage.py startapp polls)
